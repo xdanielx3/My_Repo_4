@@ -1,0 +1,7 @@
+* { margin:0; padding:0; }
+header, nav, main, section, footer, body, aside { display:block; }
+header { float: left; }
+form { background-color: black; font-family: Impact, Charcoal, sans-serif; font-size: 20px; color: #ff0555; height: 734px;}
+input { border-radius: 8px; }
+input[type=submit]{ width: 200px; background-color: gold; }
+

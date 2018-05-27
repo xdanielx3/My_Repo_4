@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="includes/style.css">
+        <title>ex4</title>
+    </head>
+    <body>
+        <header>
+            <video autoplay controls src="images/game1.mp4">not supported</video>
+        </header>
+        <form action=" http://html5-book.co.il/teach/forms/get_form2.php" method="get">
+            <h3 class="form-text text-muted">You are still alive!</h3><br>
+            <label>Full Name:<br> <input required name="fullName" type="text" id="nameRight"></label><br>
+                <section id="nameError"></section>
+                <label>Your password is:<br> <input required name="pass" type="password" minlength="6"></label><br>
+                <label>Your email address is:<br> <input required name="mail" type="email"></label><br>
+                <label>Your website is:<br> <input name="website" type="url"></label><br>
+                <label>Your phone is:<br> <input name="phone" type="tel"></label><br>
+                <label>Amount of coffee you drink a day:<br> <input name="coffee" type="number"></label><br><br>
+                <label>The temperature now is:<br> 0<input name="temper" type="range" min="0" max="100">100</label><br>
+                <label>Your adress is:<br> <input name="address" type="text"></label><br><br>
+                <label><h3>Your interests are:</h3>
+                    Watching TV:<input type="checkbox" name="interests[]" value="Watching TV">
+                    Play with my dog:<input type="checkbox" name="interests[]" value="Play with my Dog">
+                    Sleeping:<input type="checkbox" name="interests[]" value="Sleeping">
+                    Resting:<input type="checkbox" name="interests[]" value="Resting">
+                </label><br><br>
+                <label>Your gender is:<br>
+                    Male <input type ="radio" name="gender" value ="Male">
+                    Female<input type ="radio" name="gender" value ="Female">
+                </label><br><br>
+                <label>Your age is:
+                    <select name="age">
+                        <option value="1">25</option>
+                        <option value="2">12</option>
+                        <option value="2">92</option>
+                    </select>
+                </label><br><br>
+            <center><input type="submit" value="Submit" input id="button"></center>
+        </form >
+        <script src="includes/main.js"></script>
+    </body>
+</html>
